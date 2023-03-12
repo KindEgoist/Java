@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Дана последовательность N целых чисел. Найти сумму простых чисел.
  */
-public class Pro1 {
+public class H1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.printf("Введите число N: ");

@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Дана последовательность из N целых чисел. Верно ли, что последовательность является возрастающей.
  */
-public class Pro2 {
+public class H2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.printf("Введите число N: ");

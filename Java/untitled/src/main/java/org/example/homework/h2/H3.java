@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * Дан массив целых чисел. Заменить отрицательные элементы на сумму индексов двузначных элементов массива.
  */
-public class Pro3 {
+public class H3 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.printf("Введите размер массива: ");
