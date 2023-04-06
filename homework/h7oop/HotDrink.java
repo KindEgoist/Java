@@ -1,6 +1,6 @@
 package org.example.homework.h7oop;
 
-public class HotDrink extends Product{
+public class HotDrink extends Product {
     private int volume;
     private int temperature;
 
@@ -42,4 +42,6 @@ public class HotDrink extends Product{
                 && getVolume() == that.getVolume()
                 && getTemperature() == that.getTemperature();
     }
+
+
 }
