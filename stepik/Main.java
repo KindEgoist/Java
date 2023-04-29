@@ -3,19 +3,19 @@ package org.example.stepik;
 import java.util.Scanner;
 
 /**
- По данному натуральному n вычислите сумму 12+22+...+n2
+ Вводится 2 целых числа a и b (a <= b). Необходимо вычислить сумму всех чисел от а до b включительно.
  *
  */
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
-        double b = 0;
-        while (a != 0){
-            b = Math.pow((double) a, 2.0);
-            a--;
+        int b = scanner.nextInt();
+        int summa = 0;
+        for (int i = a; i <= b; i++) {
+            summa += i;
         }
-        System.out.println((int)b);
+        System.out.println(summa);
 
     }
 }
